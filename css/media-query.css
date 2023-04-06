@@ -2,8 +2,9 @@
 
 
 @media screen and (min-width: 800px) {
-    section#login {
+    section#login { 
         width: 80vw;
+        height: 280px;
     }
 
     body {
@@ -21,6 +22,12 @@
         float: right;
         width: 60%;
     }
+
+    #formulario p {
+        margin-bottom: 10px;
+
+    }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -32,6 +39,7 @@
     
     section#login {
         width: 900px;
+        height: 310px;
     }
 
     div#imagem {
